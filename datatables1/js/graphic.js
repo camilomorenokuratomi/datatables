@@ -28,6 +28,7 @@ $(document).ready(function() {
       },
       simpleSheet: true,
       debug: false,
+      dom: Bfrtip,
       buttons: ['copy', 'csv', 'excel', 'pdf', 'print']
       
     });
@@ -47,8 +48,6 @@ $(document).ready(function() {
       "autoWidth": false,
       "data": data,
       "columns": columns,
-      "dom": Bfrtip,
-      "buttons": ['copy', 'csv', 'excel', 'pdf', 'print'],
       "order": [
         [2, "desc"]
       ], //order on second column
