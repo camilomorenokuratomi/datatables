@@ -28,7 +28,7 @@ $(document).ready(function() {
       },
       simpleSheet: true,
       debug: false,
-      dom: Bfrtip,
+      dom: 'Bfrtip',
       buttons: ['copy', 'csv', 'excel', 'pdf', 'print']
       
     });
