@@ -27,7 +27,9 @@ $(document).ready(function() {
         writeTable(data); //call up datatables function
       },
       simpleSheet: true,
-      debug: false
+      debug: false,
+      buttons: ['copy', 'csv', 'excel', 'pdf', 'print']
+      
     });
   }
 
