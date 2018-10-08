@@ -61,7 +61,3 @@ $(document).ready(function() {
   }
 });
 //end of writeTable
-
-$('#myTable').DataTable( {
-  buttons: [ 'copy', 'csv', 'excel' ]
-} );  
