@@ -47,6 +47,8 @@ $(document).ready(function() {
     });
   }
 
+  //cdn.datatables.net/plug-ins/1.10.19/i18n/French.json
+
   initializeTabletopObject();
 
   function writeTable(data) {
@@ -60,7 +62,7 @@ $(document).ready(function() {
     $("#mySelection").DataTable({
       "autoWidth": true,
       "language": {
-        "url": "dataTables.french.lang"
+        "url": '//cdn.datatables.net/plug-ins/1.10.19/i18n/French.json'
        },
       "data": data,
       "columns": columns,
