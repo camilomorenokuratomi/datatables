@@ -2,21 +2,37 @@
 
 //enter google sheets key here
 var key =
-  "https://docs.google.com/spreadsheets/d/113QZOTS9JQ1WGfwjwQrOpErUBJTAnaBmdjP0_OjA53c/pubhtml?gid=489792061&single=true";
+  "1wl4yU6GbuWw0posmuYX1OPJcOMW29Sz9ltREOD4meTA";
 
 //"data" refers to the column name with no spaces and no capitals
 //punctuation or numbers in your column name
 //"title" is the column name you want to appear in the published table
 var columns = [{
-  "data": "company",
-  "title": "Company"
+  "data": "epci",
+  "title": "Libellé EPCI"
 }, {
-  "data": "violations",
-  "title": "Claims"
+  "data": "nature",
+  "title": "Nature juridique"
 }, {
-  "data": "total-award",
-  "title": "Total Awarded"
-}];
+  "data": "population",
+  "title": "Population"
+}, {
+  "data": "t2017",
+  "title": "Taux intercommunal TH 2017"
+},
+{
+  "data": "t2018",
+  "title": "Taux intercommunal voté TH 2018"
+},
+{
+  "data": "evolution",
+  "title": "Évolution en points"
+}
+
+
+
+
+];
 
 $(document).ready(function() {
 
@@ -45,7 +61,6 @@ $(document).ready(function() {
       "autoWidth": false,
       "data": data,
       "columns": columns,
-      "buttons": ['copy', 'csv', 'excel', 'pdf', 'print'],
       "order": [
         [2, "desc"]
       ], //order on second column
