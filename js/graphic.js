@@ -60,7 +60,7 @@ $(document).ready(function() {
 
     //initialize the DataTable object and put settings in
     $("#mySelection").DataTable({
-      "autoWidth": true,
+      "autoWidth": false,
       "language": {
         "lengthMenu": "Montrer _MENU_ résultats"
        },
