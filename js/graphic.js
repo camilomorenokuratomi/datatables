@@ -27,10 +27,7 @@ $(document).ready(function() {
         writeTable(data); //call up datatables function
       },
       simpleSheet: true,
-      debug: false,
-      dom: 'Bfrtip',
-      buttons: ['copy', 'csv', 'excel', 'pdf', 'print']
-      
+      debug: false
     });
   }
 
@@ -48,6 +45,7 @@ $(document).ready(function() {
       "autoWidth": false,
       "data": data,
       "columns": columns,
+      "buttons": ['copy', 'csv', 'excel', 'pdf', 'print'],
       "order": [
         [2, "desc"]
       ], //order on second column
