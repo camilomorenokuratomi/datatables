@@ -62,7 +62,9 @@ $(document).ready(function() {
     $("#mySelection").DataTable({
       "autoWidth": false,
       "language": {
-        "lengthMenu": "Montrer _MENU_ résultats"
+        "lengthMenu": "_MENU_ entrées affichées",
+        "search": "Recherchez :"
+
        },
       "data": data,
       "columns": columns,
