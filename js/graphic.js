@@ -62,7 +62,7 @@ $(document).ready(function() {
     $("#mySelection").DataTable({
       "autoWidth": true,
       "language": {
-        "url": 'https://cdn.datatables.net/plug-ins/1.10.19/i18n/French.json'
+        "lengthMenu": "Display _MENU_ records"
        },
       "data": data,
       "columns": columns,
