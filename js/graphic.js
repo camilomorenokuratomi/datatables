@@ -4,7 +4,7 @@
 //var key =
 //  "1wl4yU6GbuWw0posmuYX1OPJcOMW29Sz9ltREOD4meTA";
 
-  var key =  "163jwK6E0zqGHHxbL093oVJeapWawOwo3J_5p7uye9lg"
+  var key =  "https://docs.google.com/spreadsheets/d/e/2PACX-1vS476aGqFWoy3K45VIqIzaldg3sohU8k98i40H3muDpc5AUQPxutWKGxOHVbcNc1nwcVYG-AnPL3MEj/pubhtml"
 
 //"data" refers to the column name with no spaces and no capitals
 //punctuation or numbers in your column name
