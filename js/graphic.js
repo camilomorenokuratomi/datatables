@@ -63,8 +63,11 @@ $(document).ready(function() {
       "autoWidth": false,
       "language": {
         "lengthMenu": "_MENU_ entrées affichées",
-        "search": "Recherchez :"
-
+        "search": "Recherchez :",
+        "paginate": {
+          "previous": "précédente",
+          "next": "suivante"
+        }
        },
       "data": data,
       "columns": columns,
