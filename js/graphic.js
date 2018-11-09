@@ -1,10 +1,11 @@
 //Edit 'key' and 'columns' to connect your spreadsheet
 
 //enter google sheets key here
-//var key =
-//  "1wl4yU6GbuWw0posmuYX1OPJcOMW29Sz9ltREOD4meTA";
+var key =
+  "1wl4yU6GbuWw0posmuYX1OPJcOMW29Sz9ltREOD4meTA";
 
-  var key =  "https://docs.google.com/spreadsheets/d/e/2PACX-1vS476aGqFWoy3K45VIqIzaldg3sohU8k98i40H3muDpc5AUQPxutWKGxOHVbcNc1nwcVYG-AnPL3MEj/pubhtml"
+  //test commune
+  //  var key =  "https://docs.google.com/spreadsheets/d/e/2PACX-1vS476aGqFWoy3K45VIqIzaldg3sohU8k98i40H3muDpc5AUQPxutWKGxOHVbcNc1nwcVYG-AnPL3MEj/pubhtml"
 
 //"data" refers to the column name with no spaces and no capitals
 //punctuation or numbers in your column name
