@@ -72,13 +72,14 @@ $(document).ready(function() {
       "data": data,
       "columns": columns,
       "order": [
-        [2, "desc"]
+        [1, "desc"]
       ], //order on second column
-      "pagingType": "simple" //no page numbers
+      "pagingType": "simple_numbers", //no page numbers
+      "info": false
         //uncomment these options to simplify your table
         //"paging": false,
         //"searching": false,
-        //"info": false
+      
     });
   }
 });
