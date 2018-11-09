@@ -70,12 +70,13 @@ $(document).ready(function() {
         }
        },
       "data": data,
+      "info": false,
       "columns": columns,
       "order": [
         [1, "desc"]
       ], //order on second column
       "pagingType": "numbers", //no page numbers
-      "info": false,
+      
         //uncomment these options to simplify your table
         //"paging": false,
         //"searching": false,
