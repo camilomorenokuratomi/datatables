@@ -75,7 +75,7 @@ $(document).ready(function() {
         [1, "desc"]
       ], //order on second column
       "pagingType": "numbers", //no page numbers
-      "lengthChange": false
+      "info": false,
         //uncomment these options to simplify your table
         //"paging": false,
         //"searching": false,
