@@ -76,7 +76,7 @@ $(document).ready(function() {
       "info": false,
       "columns": columns,
       "order": [
-        [5, "desc"]
+        [1, "asc"]
       ], //order on second column
       "pagingType": "numbers", //no page numbers
       
