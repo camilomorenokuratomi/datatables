@@ -27,16 +27,21 @@ var columns = [{
 }, 
 
 {
+  "data": "TAUX DE PARTICIPATION (EN %)",
+  "title": "Taux de participation (en %)"
+},
+
+{
   "data": "1ER PLACE",
-  "title": "1. Part des voix"
+  "title": "1ère place"
 },
 {
   "data": "2E PLACE",
-  "title": "2. Part des voix"
+  "title": "2ème place"
 },
 {
   "data": "3PLACE",
-  "title": "2. Part des voix"
+  "title": "3ème place"
 }
 
 
@@ -83,7 +88,7 @@ $(document).ready(function() {
       "info": false,
       "columns": columns,
       "order": [
-        [0, "asc"]
+        [3, "desc"]
       ], //order on second column
       "pagingType": "numbers", //no page numbers
       
